@@ -24,7 +24,7 @@ description: Welcome to NieBin's website.
 # List of links in the navigation bar
 navbar-links:
   Learning:
-    - Android: ""/nblearn/android"
+    - Android: "/nblearn/android"
     - kotlin: "/nblearn/kotlin"
   Note: "nbnote/note"
   About Me: "aboutme"
