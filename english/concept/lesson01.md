@@ -2,7 +2,7 @@
 layout: page
 title: Lesson 01.
 subtitle: A puma at large.
-show-avatar: true
+show-avatar: false
 tags: [English]
 ---
 
@@ -10,4 +10,4 @@ tags: [English]
 
 1. animals
 > pumas are animals
-> pumas are [large] animals [which are found in America]. 
+> pumas are [large] animals [which are found in America].
