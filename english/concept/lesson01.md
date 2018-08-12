@@ -9,7 +9,10 @@ tags: [English]
 ### Content
 
 1. animals
-> pumas are animals   
-> pumas are [large] animals [which are found in America].
+- pumas _are_ animals   
+-*which* are found.
 
-2.
+2. reports
+- *when* reports _came into_ London Zoo
+- _that_ puma _had been spotted_ forty-five miles
+- they _were not taken_ seriously
