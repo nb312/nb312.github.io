@@ -24,9 +24,9 @@ description: Welcome to NieBin's website.
 # List of links in the navigation bar
 navbar-links:
   Learning:
-    - Android: "/nblearn/android.md"
-    - kotlin: "/nblearn/kotlin.md"
-    - learn: "/nblearn/learn.md"
+    - Android: "nblearn/android.md"
+    - kotlin: "nblearn/kotlin.md"
+    - learn: "nblearn/learn.md"
   Note: "nbnote/note"
   About Me: "aboutme"
 # Image to show in the navigation bar - image must be a square (width = height)
