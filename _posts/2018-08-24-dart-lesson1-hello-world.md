@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Dart Lesson 01
+title: Hello World For Dart Language!
 subtitle: This is my first lesson for dart.
-tags: [dart]
+tags: [dart,flutter]
 ---
 # Language Syntax
 Before we are talking about the language,we can just see its syntax.It is very sample of you, if you are a developer,even a non developer could know it.so let us  talk about the syntax,every programming language  has its own syntax,as well as the Dart language. See below:
@@ -24,7 +24,7 @@ Before we are talking about the language,we can just see its syntax.It is very s
 8. typedefs
 > In every language,there are some many types,you can use them ,if it was not defined ,you need to define it by you self.
 9. data structures
-> data structures are very import,it can manage some complex data,you don't need to know much about algorithms.Just use it if you like it. 
+> data structures are very import,it can manage some complex data,you don't need to know much about algorithms.Just use it if you like it.
 
 # Hello world!
 > every one know that a developer begins with a "hello world" example,as this,I am not the exception.
@@ -40,6 +40,7 @@ hello world
 ```
 
 # Command line
-if you like command line ,you may want to use the command lines,but here,I do not want to take it ,for I just want to learn the language syntax at this time. So sorry about that.If you
+if you like command line ,you may want to use the command lines,but here,I do not want to take it ,for I just want to learn the language syntax at this time. So sorry about that.If you want to use it ,just run `dart -h` ,you can see the base command about it.
 
-#
+# Checked Mode
+when you run a dart file in dart, there are two modes ,the one is production mode ,the other is the debug mode or test mode ,If you want to use the debug mode, just run file as this `dart -c xxx.dart`,at this mode ,if you have some error or warning ,the Dart VM will prints some detail messages in the terminal.
