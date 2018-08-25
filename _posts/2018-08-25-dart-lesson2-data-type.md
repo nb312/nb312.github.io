@@ -10,8 +10,7 @@ There are five types in dart:
 - Strings
 - Booleans
 - Lists
-- Maps  
-
+- Maps   
 Before we talk about data types,we would see how to define the variable in dart.To define a variable ,there are many ways to do it.The keywords are `var` and `dynamic`
 
 ```dart
@@ -67,7 +66,7 @@ Examples are in the following:
   print(inter2);
 
 ```
-`String` is a class that  implements `Comparable<String>` and `Pattern` and have some properties,functions two.if you want to know more about them ,just look its source code.
+`String` is a class that  implements `Comparable<String>` and `Pattern` and have some properties,functions too.if you want to know more about them ,just look its source code.
 
 
 # Booleans
@@ -94,7 +93,7 @@ There are also some properties and functions in the `List` class, you can find i
 A `Map` is data type of key-value.There are type ways for using a map that are `{}` and keyword of `Map`.Examples are in the following:
 
 ```dart
- var peopleMap = {'name1': "niebin", 'age': 12};// The a map literal `{}` is used in there.      
+var peopleMap = {'name1': "niebin", 'age': 12};// The a map literal `{}` is used in there.      
  for (var m in peopleMap.keys) {
    print(peopleMap[m]); //will print niebin and 12
  }
