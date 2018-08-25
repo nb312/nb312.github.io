@@ -10,7 +10,7 @@ There are five types in dart:
 - Strings
 - Booleans
 - Lists
-- Maps
+- Maps  
 Before we talk about data types,we would see how to define the variable in dart.To define a variable ,there are many ways to do it.The keywords are `var` and `dynamic`
 
 ```dart
@@ -73,10 +73,42 @@ Examples are in the following:
 The keyword is `bool`.its values have just two options of `true` and `false`. If a type is not a boolean and you use as a boolean ,it will compare with true value,the all of them are false,because the others are not equal `true`. Basic Example:
 
 ```dart
-var isCat = false;
+ var isCat = false;
  bool isT = true;
  print(isCat);
  print(isT);
 ```
 # List
-List is an array in dart and have is order that start with zero and end in n-1,the n is its length.the list is same as the language of java.
+List is an array in dart and have is order that start with zero and end in n-1,the n is its length.the list is same as the language of the java.There are two types of list,the one have a fixed length that you can not changed except at the initial time and the another one is a growable list that can grow or decrease its length.Examples below:
+
+```dart
+var names =new List(10);//this is a fixed length list, you can not change its length at the runtime.
+var ages = new List();//this is a growable list.
+var addresses = ["Shanghai", "BeiJing"]; // this is a growable list.
+
+```
+There are also some properties and functions in the `List` class, you can find in your source files.
+
+# Maps
+A `Map` is data type of key-value.There are type ways for using a map that are `{}` and keyword of `Map`.Examples are in the following:
+
+```dart
+var peopleMap = {'name1': "niebin", 'age': 12};// The a map literal `{}` is used in there.      
+ for (var m in peopleMap.keys) {
+   print(peopleMap[m]); //will print niebin and 12
+ }
+```  
+We use the map literal `{}` above.But we have the other way that use the constructor of `Map` as below:
+
+```dart
+ var anyMap = Map();// the constructor of `Map`
+ anyMap['a'] = 1;
+ anyMap['name'] = "xiao bai";
+ anyMap['isDog'] = true;
+ for (var k in anyMap.keys) {
+   print(anyMap[k]);
+ }
+```
+It is very easy to define or initialize the `Map`. There are some properties and functions in the `Map`,you can find them in the dart with its code sources files.
+
+The End.   
