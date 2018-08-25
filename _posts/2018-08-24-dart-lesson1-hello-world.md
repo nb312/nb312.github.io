@@ -52,6 +52,7 @@ as the java ,it support:
  - special of `_`,`$`,
  - can not begin with digits,
  - case-sensitive
+ 
 # Keywords
 compare with java , there are some special keywords,
 
