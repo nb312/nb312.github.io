@@ -75,7 +75,7 @@ dart language is object-oriented language ,the using of an object is very simila
 As we can see, dart is similar with java ,but there are some differences:
 
 1. files  
-in java ,you must define a java file with only one class or interface ,but in dart you can define a function ,class,or some variables in ,you can call them easy . it is a programming language ,but have some script feature.
+in java ,you must define a java file with only one class or interface ,but in dart you can define a function ,class,or some variables in it,you can call them easy . it is a programming language ,but have some script feature.
 2. old vs modern   
 java is a old language that used in so many projects ,but have a fixed structure and call them not easy.
 dart have some modern language feature and have some ways for easy using.
