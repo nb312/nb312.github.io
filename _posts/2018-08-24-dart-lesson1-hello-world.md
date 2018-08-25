@@ -19,7 +19,7 @@ when  develop language is created by scientists,it always support the function's
 the key words are `if` and `for` ,even through you know  a little about developing language,you may know these words.
 6. comments  
 It is very common function that is almost in every programming language.
-7. librarys and packages  
+7. libraries and packages  
 If you want to use the codes of the other people or some functions that had been created by you before.you cloud use the libraries or packages to concise your code and manage your mind.
 8. typedefs   
 In every language,there are some many types,you can use them ,if it was not defined ,you need to define it by you self.
@@ -52,7 +52,7 @@ as the java ,it support:
  - special of `_`,`$`,
  - can not begin with digits,
  - case-sensitive
- 
+
 # Keywords
 compare with java , there are some special keywords,
 
