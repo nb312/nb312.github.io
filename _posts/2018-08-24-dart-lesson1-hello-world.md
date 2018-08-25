@@ -79,4 +79,4 @@ in java ,you must define a java file with only one class or interface ,but in da
 java is a old language that used in so many projects ,but have a fixed structure and call them not easy.
 dart have some modern language feature and have some ways for easy using.
 3. future   
-In the last year,google have publish their project called [flutter](https://flutter.io/),which use the dart language as the base developing language,just for one year ,there 34k star the project on the github. you can see the potential of dart,just do it and go with me,you will find a new land again.
+In the last year,google have publish their project called [flutter](https://flutter.io/),which use the dart language as the base developing language,just for one year ,there are 34k stars on the project in the github. you can see the potential of dart,just do it and go with me,you will find a new land again.
