@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dart 03 |Operators & Sentence
+title: Dart 03 |Operators
 subtitle: There are some operators and sentences in this article.
 tags: [dart,flutter]
 ---
@@ -22,6 +22,7 @@ The arithmetic operators are the same as the java, but the `~/` is an exception 
 | `+` | `-` |  `*` |
 |  `/` | `~/` divide but return integer | `-expr` reverse the sign |
 | `%` | `++`  | `--` |   
+
 ```dart
  var a = 3 ~/ 2;
  print(a); //print 1
@@ -36,6 +37,7 @@ Same as the java.
 |------|------|------|
 | `>` | `<`| `>=`|
 |`<=` | `==`| `!=` |
+
 ```dart
  var a = 1;
  var b = 2;
@@ -78,7 +80,7 @@ There some common operators about assignment operator, such as `+=`.
 | operator | explanation |
 |---|---|
 | `=`| var a = 12; //just a sample assign|
-| `??=`|if variable is null than assign it|
+| `??=`|if variable is null then assign it|
 | `+=` | a +=1 means a =a+1,the other multi assignment is the same use |
 | `-=`,`*=`,`/=`| the using is the same as the `+=` but have the different operators|
 
@@ -88,4 +90,17 @@ there are three operators in logical operators.
 |operator| explanation|
 |---|---|
 |`&&`| both true will return true.|
-|&#127| 
+|`OR`| if have true return true.|
+|`!` | invert variable ,if true return false |
+
+#### 7. Conditional
+
+This is same as the `?:` expression in java. The mean is that if true return a else return b.
+
+```dart
+ var a = !true;
+ var content = a ? "this is true" : "this is false.";
+ print(content); //will print 'this is false.'
+```
+
+The End.
