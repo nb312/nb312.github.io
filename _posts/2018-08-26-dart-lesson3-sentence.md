@@ -111,5 +111,62 @@ This is same as the `?:` expression in java. The mean is that if true return a e
  var content = a ? "this is true" : "this is false.";
  print(content); //will print 'this is false.'
 ```
+# Loop
+There are two types of loop,the keywords are `for` and `while` .But `for` have two sub types and `while` also have two sub types.examples following:  
+
+```dart
+var names = ["xiaoming", "xiaoqiang", "laowang"];
+print("for example:");
+for (var i = 0; i < names.length; i++) {
+  print("name$i: ${names[i]}");
+}
+print("for in example:");
+for (var name in names) {
+  print(name);
+}
+print("while example:");
+var index = 0;
+while (index < names.length) {
+  print(names[index]);
+  index++;
+}
+print("do while example:");
+index = 0;
+do {
+  print(names[index]);
+  index++;
+} while (index < names.length);
+
+```
+
+# Decision Making
+In every programming language,there must be a decision sentence,so as the dart,the using is almost same as the java.The keyword is `if`,`switch`,examples are below.
+```dart
+var a = 1;
+  if (a == 2) {
+    print("a==2");
+  } else if (a is double) {
+    print("a is double type");
+  } else if (a == 1) {
+    print("a = 1");
+  }else{
+    print("I don't know what is the a");
+  }
+
+  switch (a) {
+   case 2:
+     print("a==2");
+     break;
+   case 1:
+     print("a==1");
+     break;
+   default:
+     print("I do not know what is the a");
+     break;
+ }
+
+```
+The decision is easy to use it.I expect you can use it by yourself. 
+
 
 The End.
