@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dart 03 |Operators
+title: Dart 03 |Operators ,loop and decision
 subtitle: There are some operators in this article.
 tags: [dart]
 ---
@@ -166,7 +166,7 @@ var a = 1;
  }
 
 ```
-The decision is easy to use it.I expect you can use it by yourself. 
+The decision is easy to use it.I expect you can use it by yourself.
 
 
 The End.
