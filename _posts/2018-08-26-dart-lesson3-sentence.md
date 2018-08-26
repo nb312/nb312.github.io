@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dart 03 |Operators
-subtitle: There are some operators and sentences in this article.
+subtitle: There are some operators in this article.
 tags: [dart,flutter]
 ---
 # Operators
