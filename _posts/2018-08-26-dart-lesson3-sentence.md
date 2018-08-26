@@ -6,7 +6,7 @@ tags: [dart,flutter]
 ---
 # Operators
 There are six operators in dart:  
-1. arithmetic
+- arithmetic
 - relational
 - check type
 - bitwise
@@ -23,12 +23,14 @@ The arithmetic operators are the same as the java, but the `~/` is an exception 
 |  `/` | `~/` divide but return integer | `-expr` reverse the sign |
 | `%` | `++`  | `--` |   
 
+
 ```dart
  var a = 3 ~/ 2;
  print(a); //print 1
  a = -a;
  print(a); //print -1
 ```
+
 
 #### 2. relational   
 Same as the java.
@@ -38,6 +40,7 @@ Same as the java.
 | `>` | `<`| `>=`|
 |`<=` | `==`| `!=` |
 
+
 ```dart
  var a = 1;
  var b = 2;
@@ -46,12 +49,14 @@ Same as the java.
  print(isLarge); //print false means that a is not larger than b.
  print(isLow); // print true means that a is lower than b.
 ```
+
 #### 3. check type
 
 |1|2|
 |--|--|
 |`is`|`is!`|
 |check the variable is or not the appoint type| the reverse ,check `is not`|
+
 
 ```dart
  var a = 1;
@@ -60,6 +65,8 @@ Same as the java.
  print(isInt); //print true.
  print(isDouble); //print true.
 ```
+
+
 #### 4. bitwise
 All the bitwise operators are operating with its responsive place.
 
@@ -84,6 +91,7 @@ There some common operators about assignment operator, such as `+=`.
 | `+=` | a +=1 means a =a+1,the other multi assignment is the same use |
 | `-=`,`*=`,`/=`| the using is the same as the `+=` but have the different operators|
 
+
 #### 6. Logical
 there are three operators in logical operators.
 
@@ -92,6 +100,7 @@ there are three operators in logical operators.
 |`&&`| both true will return true.|
 |`OR`| if have true return true.|
 |`!` | invert variable ,if true return false |
+
 
 #### 7. Conditional
 
