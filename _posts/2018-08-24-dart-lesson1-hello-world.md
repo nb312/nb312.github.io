@@ -2,7 +2,7 @@
 layout: post
 title: Dart 01 | Hello World!
 subtitle: This is my first lesson for dart.
-tags: [dart,flutter]
+tags: [dart]
 ---
 # Language Syntax
 Before we are talking about the language,we can just see its syntax.It is very sample of you, if you are a developer,even a non developer could know it.so let us  talk about the syntax,every programming language  has its own syntax,as well as the Dart language. See below:

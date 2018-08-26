@@ -2,7 +2,7 @@
 layout: post
 title: Dart 02 | Data types
 subtitle: We will talk about the data types of the dart language.
-tags: [dart,flutter]
+tags: [dart]
 ---
 # Support Data Types
 There are five types in dart:

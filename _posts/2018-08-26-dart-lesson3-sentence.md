@@ -2,7 +2,7 @@
 layout: post
 title: Dart 03 |Operators
 subtitle: There are some operators in this article.
-tags: [dart,flutter]
+tags: [dart]
 ---
 # Operators
 There are six operators in dart:  
