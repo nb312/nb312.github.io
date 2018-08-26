@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World For Dart Language!
+title: Dart 01 | Hello World!
 subtitle: This is my first lesson for dart.
 tags: [dart,flutter]
 ---
