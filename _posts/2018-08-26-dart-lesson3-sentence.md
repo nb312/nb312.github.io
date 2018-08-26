@@ -98,7 +98,7 @@ there are three operators in logical operators.
 |operator| explanation|
 |---|---|
 |`&&`| both true will return true.|
-|`OR`| if have true return true.|
+|`vertical line` OR|can not show the vertical line here. if have true return true.|
 |`!` | invert variable ,if true return false |
 
 
