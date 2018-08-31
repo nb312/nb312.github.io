@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dart 04 | Function
-subtitle: Let's look at the object-oriented structure..
+subtitle: Let's look at the function.
 tags: [dart]
 ---
 # Function
@@ -10,7 +10,7 @@ So let us look at that how to define it or use it.
 # How to define
 the style like this:
 
-```
+```dart
 //the return type is not necessary too ,if not should be void
 [return type] function_name(){
   //statements:this is function body that you can do some thing here.
@@ -19,7 +19,7 @@ the style like this:
 
 ```
 real example as below.
-```
+```dart
 int plus10(int a) {
     print("call plus ten.");
     return a + 10;
@@ -53,7 +53,7 @@ void printHello() {
 ```
 # Optional positional parameters
 In the dart, if there is not an override function with the same name,which means if you can not define a function with one name at the same scope. But dart support the optional positional parameters and you can use it to achieve your purpose.Example is following,The symbol is `[]`
-```
+```dart
 void main() {
   printHello();
   printHello(1);
@@ -70,7 +70,7 @@ The syntax of the positional parameters is `type function_name(type1 v1,[type2 v
 
 # optional name parameters
 The symbol is `{}`,The name parameters is defined in the `{}`.Example below.
-```
+```dart
 void main() {
   printHello();
   printHello(a: "1");
@@ -83,7 +83,7 @@ void printHello({a}) {
 
 ```
 We just need to define variables in the symbol `{}`, when you use it ,then you use the symbol `:` as `a:1` that assign the value of 1 to the variable of `a`.This are very similar with the default value in `kotlin`.But you should be careful about use the optional positional parameters by assigning value of style.
-```
+```dart
 void main() {
   printHello();
   printHello(a = 2);//this is not assigning the 2 to the second variable `a` of `printHello` but the first. This may be not within your expecting.
@@ -99,7 +99,7 @@ void printHello([b, a]) {
 
 # Optional default parameters
 This kind of parameters is an expansion of  the name parameters.If you don't put parameters to the default parameters,the system with use the default one.Example is beneath.
-```
+```dart
 void main() {
   printHello();
   printHello(a: 2);
