@@ -151,7 +151,7 @@ class ChildExample implements Example {
 }
 ```
 Above this example,we can just understand that a interface is a class,but if you use `implement` keyword to implement a class ,it become a interface that you must override its every function.
- ### How to use an interface
+### How to use an interface  
  Don't like the Java language,we can implement a interface with its fields and functions.that is cool to override it. The example as below.
 ```dart
 
