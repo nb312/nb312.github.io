@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dart 03 |Operators&&Loop&&Decision
+title: Dart 03 |Operators & Loop & Decision
 subtitle: There are some operators in this article.
 tags: [dart]
 ---
