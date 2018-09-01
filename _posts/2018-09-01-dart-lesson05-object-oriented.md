@@ -200,6 +200,6 @@ c..printMessage()..printMessage();
 This can save you coding time and beautify your code.
 
 # Summary
-Today,we learn about the the object-oriented elements in dart,such as class,interface and object.It is very similar with other object-oriented languages but have its own properties.If you have travel with the other article about dart before,you could code in really project now,for the main basic knowledge about the dart is going through with these articles.If you want to travel further,just following with me，Let us have a nice trip.
+Today, we learn about the object-oriented elements in the dart, such as class, interface and object. It is very similar to other object-oriented languages but has its properties. If you have traveled with the other article about dart before, you could code in a real project now, for the inside basic knowledge about the dart is going through with these articles. If you want to travel further, just following with me, we have a nice trip.
 
 Thanks.
