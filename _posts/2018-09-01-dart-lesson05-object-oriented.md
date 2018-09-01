@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Dart 05 | Object-Oriented
-subtitle: In this article ,we will talk about class,interface and object.
+subtitle: In this article, we will talk about class,interface and object.
 tags: [dart]
 ---
 # Class
 Dart is object-oriented programming. So it must have the concept of class. We have the class then we have the object. Let us go to our learning travel with me.
 
 # How to define a class
-The keyword `class` is necessary to our defining. Example is beneath.
+The keyword `class` is necessary to our defining. The example is beneath.
 ```dart
 class Example {
   Example() {
@@ -35,7 +35,7 @@ class class_name{
 }
 
 ```
-As you can see, It is straightforward.But you should remember that there are not identifiers before the `class.`This is very different from the Java.
+As you can see, It is straightforward. But you should remember that there are not identifiers before the `class.`This is very different from the Java.
 
 # How to use
 Once we define a `class` in the file, then we can use it. There are two ways for instancing the `class`. The one have the keyword `new` , then another one has not. Examples:
@@ -113,10 +113,10 @@ class ChildExample extends Example {
 ```   
 # The keyword
 In the class, there are some relevant keywords.
-- `this`   
-this keyword is the object instance of the current class.It can call its field and functions.
+- `this`
+This keyword is the object instance of the current class. It can call its field and functions.
 - `super`  
-If you override a function,it can have a `super` keyword,that you can call the function or field of the parent class.
+If you override a function, it can have a `super` keyword, which you can call the function or field of the parent class.
 - `static`   
 A static field or function is referenced with the class, and you do not need to instance them and call them directly.
 
@@ -135,9 +135,9 @@ class Example {
 
 ```
 # Interface
-If you inheritance a class,but you do not want their function body and what a clean function, then the interface is coming.   
-### How to define a interface?
-This kind of interface definition is so different  with other programming. It do not use the keyword `interface`,but use the keyword `class`,which is used to define the class,I am astonished by it by the way.But you should be care about that if you have implement a interface,**you should override every function** in the parent class.
+If you inheritance a class, but you do not want their function body and what a clean function, then the interface is coming.   
+### How to define an interface?
+This kind of interface definition is so different from another programming. It does not use the keyword `interface`, but use the keyword `class`, which is used to define the class,I am astonished by it by the way. But you should care about that if you have implemented an interface,**you should override every function** in the parent class.
 ```dart
 
 class Example {
@@ -150,9 +150,9 @@ class ChildExample implements Example {
   }
 }
 ```
-Above this example,we can just understand that a interface is a class,but if you use `implement` keyword to implement a class ,it become a interface that you must override its every function.
+Above this example, we can understand that an interface is a class, but if you use `implement` keyword to implement a class, it becomes an interface that you must override its every function.
 ### How to use an interface  
- Don't like the Java language,we can implement a interface with its fields and functions.that is cool to override it. The example as below.
+ Don't like the Java language, we can implement an interface with its fields and functions.that is cool to override it. The example below.
 ```dart
 
 class Example {
@@ -177,8 +177,8 @@ class ChildExample implements Example {
 You need know ,we can not override a `static` field of a interface and dart also support the multi implement.
 
 # Cascade operator(..)
-If you use a object in the same time but call it for some many times, there is a symbol `..` to help you use the object convenience.Examples are below.
-If we have the this definition:
+If you use an object at the same time but call it for some many times, there is a symbol `..` to help you use the object convenience. Examples are below.
+If we have this definition:
 ```dart
 class Example {
 
@@ -186,7 +186,7 @@ class Example {
 }
 ```
 Normal using:
-```
+```dart
 var c = ChildExample();
 c.printMessage();
 c.printMessage();
