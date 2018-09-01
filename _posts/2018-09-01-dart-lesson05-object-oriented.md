@@ -134,4 +134,72 @@ class Example {
 }
 
 ```
-The End.
+# Interface
+If you inheritance a class,but you do not want their function body and what a clean function, then the interface is coming.   
+### How to define a interface?
+This kind of interface definition is so different  with other programming. It do not use the keyword `interface`,but use the keyword `class`,which is used to define the class,I am astonished by it by the way.But you should be care about that if you have implement a interface,**you should override every function** in the parent class.
+```dart
+
+class Example {
+  void printMessage() {}
+}
+
+class ChildExample implements Example {
+  @override
+  void printMessage() {
+  }
+}
+```
+Above this example,we can just understand that a interface is a class,but if you use `implement` keyword to implement a class ,it become a interface that you must override its every function.
+ ### How to use an interface
+ Don't like the Java language,we can implement a interface with its fields and functions.that is cool to override it. The example as below.
+```dart
+
+class Example {
+  Example(c) {
+    print(c);
+  }
+
+  void printMessage() {}
+  var a = 0;
+  static var b = 1;
+}
+
+class ChildExample implements Example {
+  @override
+  void printMessage() {}
+
+  var a = 1;
+  @override
+  var b = 2;
+}
+```
+You need know ,we can not override a `static` field of a interface and dart also support the multi implement.
+
+# Cascade operator(..)
+If you use a object in the same time but call it for some many times, there is a symbol `..` to help you use the object convenience.Examples are below.
+If we have the this definition:
+```dart
+class Example {
+
+  void printMessage() {}
+}
+```
+Normal using:
+```
+var c = ChildExample();
+c.printMessage();
+c.printMessage();
+
+```
+With `..` symbol
+```dart
+var c = ChildExample();
+c..printMessage()..printMessage();
+```
+This can save you coding time and beautify your code.
+
+# Summary
+Today,we learn about the the object-oriented elements in dart,such as class,interface and object.It is very similar with other object-oriented languages but have its own properties.If you have travel with the other article about dart before,you could code in really project now,for the main basic knowledge about the dart is going through with these articles.If you want to travel further,just following with me，Let us have a nice trip.
+
+Thanks.
