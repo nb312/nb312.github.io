@@ -135,7 +135,7 @@ class Example {
 
 ```
 # Interface
-If you inheritance a class, but you do not want their function body and what a clean function, then the interface is coming.   
+If you inheritance a class, but you do not want their function body and want a clean function, then the interface is coming.   
 ### How to define an interface?
 This kind of interface definition is so different from another programming. It does not use the keyword `interface`, but use the keyword `class`, which is used to define the class,I am astonished by it by the way. But you should care about that if you have implemented an interface,**you should override every function** in the parent class.
 ```dart
