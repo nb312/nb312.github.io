@@ -147,7 +147,7 @@ if(a!=0){
 
 ### Custom Exception
 If you want to custom an exception, just easy:
-```Dart
+```dart
 void main() {
   dynamic a = 1;
   if (a < 2) {
