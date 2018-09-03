@@ -5,10 +5,10 @@ subtitle: Some special types class in dart!.
 tags: [dart]
 ---
 # Runes
-String is coded by UTF-16 in dart, if you want know the integer code an Unicode,then you need to know Runes.
+String is coded by UTF-16 in the dart, and if you want to know the integer code an Unicode, then you need to know Runes.
 
 ### What are the Runes
-Runes are  the integer representing the Unicode code point.For example,if the string is `Hello`,so we can get its Unicode.
+Runes are the integer representing the Unicode code point. For example, if the string is `Hello`, so we can get its Unicode.
 ```dart
 String hello = 'Hello';
 print(hello.codeUnits);//[72, 101, 108, 108, 111]
@@ -20,7 +20,7 @@ Then we look at the runes as below.
 
 ```
 ### How to use
-As we can see,the result is almost same as the `codeUnits` above.Why is the dart having a same feature with different name.Let's go to continue our travel with Runes.When I look the source code inside  the class`Runes`,it is said that `Runes` extend the Iterable<int>, which is the same as the List.   
+As we can see, the result is almost the same as the `codeUnits` above. Why is the dart having the same feature with a different name? Let's go to continue our travel with Runes. When I look at the source code inside the class`Runes`, it is said that `Runes` extend the Iterable<int>, which is the same as the List.   
 If you want convert a Unicode to a string ,just like this.
 ```dart
 var r = Runes("\u{0048}\u{0065}\u{006C}\u{006C}\u{006F}"); // make sure it is an UTF-16 Unicode.
@@ -33,7 +33,7 @@ var r = Runes("\u{0048}\u{0065}\u{006C}\u{006C}\u{006F}"); // make sure it is an
 ```
 
 # Enumeration
-The enumeration is similar with class.It is used in the places that need manage some similar places.Here are example.
+The enumeration is similar to the class. It is used in the places that need manage some similar places. Here is an example.
 ```dart
 void main() {
   var v = Video.START;
@@ -46,7 +46,7 @@ enum Video { START, PLAYING, PAUSE, STOP }
 
 ```
 # Collect
-Collect is useful data structure,which can manage your data very well.There are several types of collect,such as Set,HashMap,LinkedList,Queue.Examples:
+Collect is a useful data structure, which can manage your data very well. There are several types of collections,such as Set, HashMap, LinkedList, Queue. Examples:
 ```dart
 import 'dart:core';
 import 'dart:collection';
@@ -88,10 +88,10 @@ var strList = List<String>();
    print(str);
  }
 ```
-If you  want use the Int type ,it is easy to change.Just like this `var intList=List<int>()`,the using of it is same as the type of `String`,but the type must be int.Be careful about the type `int`,which is a class that not same as the Java.The other collections have their `Generics` yet,which is similar to List.
+If you want use the Int type, it is easy to change. Just like this `var intList=List<int>()`, the using of it is same as the type of `String`, but the type must be int. Be careful about the type `int`, which is a class that not same as the Java. The other collections have their `Generics` yet, which is similar to List.
 
 ### How to define with a generics
-In function,like this:
+In function, like this:
 ```dart
 void printT<T>(T t) {
   print(t);
@@ -116,10 +116,10 @@ void main() {
 It is very easy to define or use the generics,but the feature and application are wide.
 
 # Exception
-When our application or program are in the runtime,sometimes,we get an error within it.At this situation,we usually need to handle the exception.The class `Exception` is representing a exception and all exceptions that are throw in dart is implementing the class `Exception`.
+When our application or program is in the runtime, sometimes, we get an error within it. In this situation, we usually need to handle the exception. The class `Exception` is representing an exception, and all exceptions that are throw in dart is implementing the class `Exception`.
 
 ### How to handle an exception
-When an exception occurs,we use the `try`  handle it. The Example:
+When an exception occurs, we use the `try`  handle it. The Example:
 ```dart
 void main() {
   dynamic s = "";
@@ -135,9 +135,9 @@ void main() {
 }
 
 ```
-It is same as the Java.
+It is the same as the Java.
 ### Throw
-If you want to throw an exception,Example beneath:
+If you want to throw an exception, Example beneath:
 ```dart
 if(a!=0){
   throw Exception("This is exception that a is not equal zero.");
@@ -146,7 +146,7 @@ if(a!=0){
 ```
 
 ### Custom Exception
-If you want to custom an exception ,just easy:
+If you want to custom an exception, just easy:
 ```Dart
 void main() {
   dynamic a = 1;
