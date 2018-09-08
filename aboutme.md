@@ -1,16 +1,38 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Thanks for your reading.
 ---
+# Who am I
+My name is Nie Bin.  
+I am from China and work for a startup company in Shang Hai.The main job I do is the developing of the Android about the layer of application.
 
-My name is Nie Bin. I have the following qualities:
+# What can I do
+- Java in android
+- Kotlin in android
+- Python script
+- Dart language
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+# Projects
+I am an Android developer in many companies and have some many projects experience with developing.
+### 2013-2017
+- Anonymous Social App | 匿名社交
+- Old man desktop for android | 老人桌面
+- Weather App | 天气App
+- Alarm App | 闹钟 App
+- Wristwatch developing | 手表开发
+- Robot developing | 机器人开发
 
-What else do you need?
+### 2017~now
+- Exchange for Coin | 交易所
+- Wallet for Coin | 钱包
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+# Open source or Articles
+- [nbhttp](https://github.com/nb312/nbhttp)   
+  A http framework for android.   
+- [TensorFlowExample](https://github.com/TFStudents/TensorFlowExample)   
+  A basic example for using TensorFlow.
+- [Learning Kotlin](https://nb312.gitbooks.io/kotlin/content/)   
+  The learning note about the Kotlin.
+- [Some Android Notes](https://nb312.gitbooks.io/android-advanced/content/)   
+  Some Android Notes.
