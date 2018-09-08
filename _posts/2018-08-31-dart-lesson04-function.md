@@ -142,4 +142,51 @@ var plusNine = (a) => a + 9;
 ```
 There are many things about functions, but I will talk about it in the next few article to make sure we know the base concept at first.  
 
+# Typedef
+The keyword `typedef`,which is used in calling a function by defining a variable,the function is the same with the same parameter types and the same numbers of the parameter. That means if the types, numbers,and the orders of the parameters are the same,you can assign to the same typedef variables.Examples are below:
+```dart
+typedef callFun();
+typedef twoOper(int a, int b);
+
+void main() {
+  callFun call = printHello;
+  call();
+  call = printWorld;
+  call();
+  int a = 9, b = 10;
+  twoOper two = add;
+  print("add = ${two(a, b)}");
+  two = min;
+  print("min = ${two(a, b)}");
+}
+
+void printHello() {
+  print("hello");
+}
+
+void printWorld() {
+  print("world");
+}
+
+int add(int a, int b) {
+  return a + b;
+}
+
+int min(int a, int b) {
+  if (a > b)
+    return b;
+  else
+    return a;
+}
+```
+Will print:
+```
+hello
+world
+add = 19
+min = 9
+```
+This is very convenience to use a function as variable with the keyword `typedef`.
+Good luck!
+
 The End.
