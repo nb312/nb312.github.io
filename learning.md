@@ -8,10 +8,11 @@ My name is Nie Bin.
 I am from China and work for a startup company in Shang Hai.The main job I do is the developing of the Android about the layer of application.
 
 # What can I do
-- Java in android
-- Kotlin in android
-- Python script
-- Dart language
+- Android
+- Java
+- Kotlin
+- Python
+- Dart
 
 # Projects
 I am an Android developer in many companies and have some many projects experience with developing.
