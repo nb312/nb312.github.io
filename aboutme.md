@@ -26,6 +26,7 @@ I am an Android developer in many companies and have some many projects experien
 
 ### 2017~now
 - Exchange for Coin | 交易所
+- OTC App | Coin交易App
 - Wallet for Coin | 钱包
 
 # Open source or Articles
