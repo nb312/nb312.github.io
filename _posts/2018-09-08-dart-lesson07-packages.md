@@ -130,4 +130,7 @@ At present,we often use the `Git` tool to develop, the open sources of libraries
 
 [Source of using packages](https://flutter.io/using-packages/)
 
+# End
+The serials basic lessons about the dart are complete,if you follow this in the pass times,you will learn some base knowledges, you can take some real projects that write with the dart to go further.The next time I will talk about the using of dart `flutter`,which is a cross platform developed by Google and used to develop the Android and Ios apps.if you interest it,you can look forward to it.Just wait and see,you will have a surprising for the next trip by following me.Above all,I hope the articles are useful for you.Thanks for your reading.
+
 The End!
