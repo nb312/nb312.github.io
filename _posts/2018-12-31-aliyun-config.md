@@ -11,7 +11,7 @@ tags: [linux]
 这个不用多说，大家都是会的，只要现在没有注册的域名，基本价格都是固定的，买你觉得喜欢或者和你的业务相关的就ok
 ### 3. 解析
 当这两者都购买好以后，你就可以进行域名解析了，找到解析入口，一般在阿里云控制台中，域名产品下，找到你的域名就可以看见域名解析入口了，域名解析的本质就是将域名和ip进行绑定，注意，如果是域名和ESC服务器都是阿里云的，解析只需要这一步就可以了，不需要在主机上配置任何东西，配置如图
-![Hell](doc/aliyun1.png)
+![Hell](https://github.com/nb312/nb312.github.io/blob/master/doc/aliyun1.png)
 
 ### 4. 验证解析
 当配置好解析信息后，需要等大约10分钟才会生效，使用耐心一点，
@@ -39,8 +39,8 @@ C:\Users\nb>ping flutteropen.com
 
 ### 1. 安全组
 阿里云并没有默认讲所有端口都开启，如果你想进行web开发，那么你就需要开启80/80端口，以及8080/8080 端口，具体如图，这一步是必不可少的，如果没有这个设置，你将无法通过浏览器进行ip的http 请求，当然443也一起开通，如你这样做了，你就可以对ip直接访问了，在浏览器中输入```http://ip```是什么反应
-![Hell](doc/aliyun2.png)
-![Hell](doc/aliyun3.png)
+![Hell](https://github.com/nb312/nb312.github.io/blob/master/doc/aliyun2.png)
+![Hell](https://github.com/nb312/nb312.github.io/blob/master/doc/aliyun3.png)
 
 ### 2. 80 端口 映射到8080 需求
 系统的默认是80端口，也就是说我们在浏览器中输入域名（如http://flutteropen.com/）或者ip(```http://47.254.21.19```)时，我们实际调用的是(```http://47.254.21.19:80```),那怎么才能实现，当我们输入```http://flutteropen.com```时，直接调用监听在8080端口的应用程序呢，这就是我们的需求，这里我需要用到一个很好的工具，**nginx**
