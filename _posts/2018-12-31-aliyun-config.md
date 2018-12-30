@@ -12,7 +12,7 @@ tags: [linux]
 ### 3. 解析
 当这两者都购买好以后，你就可以进行域名解析了，找到解析入口，一般在阿里云控制台中，域名产品下，找到你的域名就可以看见域名解析入口了，域名解析的本质就是将域名和ip进行绑定，注意，如果是域名和ESC服务器都是阿里云的，解析只需要这一步就可以了，不需要在主机上配置任何东西，配置如图
 ![Hell](https://github.com/nb312/nb312.github.io/blob/master/doc/aliyun1.png)
-
+<img src="https://github.com/nb312/nb312.github.io/blob/master/doc/aliyun1.png" />
 ### 4. 验证解析
 当配置好解析信息后，需要等大约10分钟才会生效，使用耐心一点，
 在另一台主机上输入ping [你的域名]  
